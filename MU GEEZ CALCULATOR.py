@@ -38,16 +38,16 @@ def power(a, c):
 def square_root(a):
     if a < 0:
         print ("~----------------------------------------------------------------------------------~")
-        print("Error: Are you being serious with me, Cannot take square root of a negative number.")
+        print("Error: You are you okay, Cannot take square root of a negative number.")
         print ("~----------------------------------------------------------------------------------~")
         return None
     return math.sqrt(a)
 
 # Input handling
-def get_number_input(adon):
+def get_number_input(catherine):
     while True:
         try:
-            return float(input(adon))
+            return float(input(catherine))
         except ValueError:
             print("Invalid input. Please enter a valid number.")
 
